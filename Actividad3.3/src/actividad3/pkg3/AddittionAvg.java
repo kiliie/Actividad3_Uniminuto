@@ -11,6 +11,7 @@ import java.util.ArrayList;
  * @author kel2m
  */
 public class AddittionAvg {
+    
     private ArrayList<Double> list = new ArrayList<>();
 
     public ArrayList<Double> getList() {

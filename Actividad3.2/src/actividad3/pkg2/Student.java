@@ -49,7 +49,7 @@ public class Student {
         double avgGlobal=0;
         for(int i=0; i < list.size();i++){
             System.out.println("Nombre del estudiante:"+list.get(i));
-            avgGlobal += list.get(i).getAvg();
+            avgGlobal += list.get(i).avg;
         }
         System.out.println("Promedio global:"+avgGlobal/list.size());
     
@@ -65,6 +65,11 @@ public class Student {
         sb.append('}');
         return sb.toString();
     }
-    
+
+   
+
+   
+
+   
     
 }

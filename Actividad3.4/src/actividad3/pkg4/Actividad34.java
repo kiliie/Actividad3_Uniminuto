@@ -1,21 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package actividad3.pkg4;
 
 import java.util.Scanner;
 
-/**
- *
- * @author kel2m
- */
 public class Actividad34 {
 
     /**
      * 4.Crear una clase que tenga como atributo un número entero ingresado
-     * por el usuario y haga las siguientes operaciones: verificar si el número es par, 
-     * obtener el factorial del número y decir cuántos dígitos tiene el número. 
+     * por el usuario y haga las siguientes operaciones: verificar si el número 
+     * es par(mod %), obtener el factorial del número (5=1*2*3*4*5)
+     * y decir cuántos dígitos tiene el número (958 = 3). 
      * Los resultados se deben mostrar en el método principal.
      */
     public static void main(String[] args) {
@@ -24,11 +18,11 @@ public class Actividad34 {
         System.out.println("Introduzca un número:");
         int number = read.nextInt();
         Operation operation = new Operation(number);
-        //operation.setNumber(number);
+        operation.setNumber(number);
         System.out.println(""+operation.isPar());
         System.out.println("Factorial:"+operation.isFactorial());
         System.out.println("Cantidad de digitos:"+operation.countDigit());
-        System.out.println(""+operation.getNumber());
+        //System.out.println(""+operation.getNumber());
     }
     
 }

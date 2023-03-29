@@ -21,7 +21,7 @@ public class Actividad32 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Scanner read = new Scanner(System.in);        
+        Scanner read = new Scanner(System.in);        
         short end=0;
         String name="";
         int cod=0;
